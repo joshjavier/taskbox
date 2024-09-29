@@ -440,6 +440,19 @@
   resolved "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.22.4.tgz"
   integrity sha512-87v0ol2sH9GE3cLQLNEy0K/R0pz1nvg76o8M5nhMR0+Q+BBGLnb35P0fVz4CQxHYXaAOhE8HhlkaZfsdUOlHwg==
 
+"@rollup/rollup-linux-x64-musl@4.22.4":
+  version "4.22.4"
+  resolved "https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.22.4.tgz"
+  integrity sha512-UV6FZMUgePDZrFjrNGIWzDo/vABebuXBhJEqrHxrGiU6HikPy0Z3LfdtciIttEUQfuDdCn8fqh7wiFJjCNwO+g==
+
+"@storybook/addon-a11y@^8.3.4":
+  version "8.3.4"
+  resolved "https://registry.npmjs.org/@storybook/addon-a11y/-/addon-a11y-8.3.4.tgz"
+  integrity sha512-mbLAJ9vW879Fq66zTUp7Gn7GQ9ZieYDj90ngMsZIjX42SsJEkeIrwbpkwbHlJBlWm2cm7hcF+BrULI0CmTIFpQ==
+  dependencies:
+    "@storybook/addon-highlight" "8.3.4"
+    axe-core "^4.2.0"
+
 "@storybook/addon-actions@8.3.2":
   version "8.3.2"
   resolved "https://registry.npmjs.org/@storybook/addon-actions/-/addon-actions-8.3.2.tgz"
@@ -508,6 +521,13 @@
   version "8.3.2"
   resolved "https://registry.npmjs.org/@storybook/addon-highlight/-/addon-highlight-8.3.2.tgz"
   integrity sha512-JFL/JLBZfa89POgi8lBdt8TzzCS1bgN/X6Qj1MlTq3pxHYqO66eG8DtMLjpuXKOhs8Dhdgs9/uxy5Yd+MFVRmQ==
+  dependencies:
+    "@storybook/global" "^5.0.0"
+
+"@storybook/addon-highlight@8.3.4":
+  version "8.3.4"
+  resolved "https://registry.npmjs.org/@storybook/addon-highlight/-/addon-highlight-8.3.4.tgz"
+  integrity sha512-rxZTeuZyZ7RnU+xmRhS01COFLbGnVEmlUNxBw8ArsrTEZKW5PbKpIxNLTj9F0zdH8H0MfryJGP+Aadcm0oHWlw==
   dependencies:
     "@storybook/global" "^5.0.0"
 
@@ -599,10 +619,10 @@
   resolved "https://registry.npmjs.org/@storybook/components/-/components-8.3.2.tgz"
   integrity sha512-yB/ETNTNVZi8xvVsTMWvtiI4APRj2zzAa3nHyQO0X+DC4jjysT9D1ruL6jZJ/2DHMp7A9U6v2if83dby/kszfg==
 
-"@storybook/core@8.3.2":
-  version "8.3.2"
-  resolved "https://registry.npmjs.org/@storybook/core/-/core-8.3.2.tgz"
-  integrity sha512-DVXs9AZzXHUKEhi5hKQ4gmH2ODFFM9hmd3odnlqenIINxGynbRtAGzU8pMhjrTRSrnlLr1liGew1IcY+hwkFjQ==
+"@storybook/core@8.3.4":
+  version "8.3.4"
+  resolved "https://registry.npmjs.org/@storybook/core/-/core-8.3.4.tgz"
+  integrity sha512-4PZB91JJpuKfcjeOR2LXj3ABaPLLSd2P/SfYOKNCygrDstsQa/yay3/yN5Z9yi1cIG84KRr6/sUW+0x8HsGLPg==
   dependencies:
     "@storybook/csf" "^0.1.11"
     "@types/express" "^4.17.21"
@@ -850,9 +870,9 @@
   integrity sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==
 
 "@types/express-serve-static-core@^4.17.33":
-  version "4.19.5"
-  resolved "https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.19.5.tgz"
-  integrity sha512-y6W03tvrACO72aijJ5uF02FRq5cgDR9lUxddQ8vyF+GvmjJQqbzDcJngEjURc+ZsG31VI3hODNZJ2URj86pzmg==
+  version "4.19.6"
+  resolved "https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.19.6.tgz"
+  integrity sha512-N4LZ2xG7DatVqhCZzOGb1Yi5lMbXSZcmdLDe9EzSndPV2HpWYWzRbaerl2n27irrm94EPpprqa8KpskPT085+A==
   dependencies:
     "@types/node" "*"
     "@types/qs" "*"
@@ -1320,6 +1340,11 @@ available-typed-arrays@^1.0.7:
   integrity sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==
   dependencies:
     possible-typed-array-names "^1.0.0"
+
+axe-core@^4.2.0:
+  version "4.10.0"
+  resolved "https://registry.npmjs.org/axe-core/-/axe-core-4.10.0.tgz"
+  integrity sha512-Mr2ZakwQ7XUAjp7pAwQWRhhK8mQQ6JAaNWSjmjxil0R8BPioMtQsTLOolGYkji1rcL++3dCqZA3zWqpT+9Ew6g==
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -3735,12 +3760,12 @@ statuses@^2.0.1, statuses@2.0.1:
   resolved "https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz"
   integrity sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==
 
-storybook@^8.3.2:
-  version "8.3.2"
-  resolved "https://registry.npmjs.org/storybook/-/storybook-8.3.2.tgz"
-  integrity sha512-jfDPtoPTtXcQ4O82u6+VE0V8q05hnj9NdmTVJvUxab796FoEbhk07xFLynOopfd9h9i0D/jc5Sf4C+iMe1bhmA==
+storybook@^8.3.2, storybook@^8.3.4:
+  version "8.3.4"
+  resolved "https://registry.npmjs.org/storybook/-/storybook-8.3.4.tgz"
+  integrity sha512-nzvuK5TsEgJwcWGLGgafabBOxKn37lfJVv7ZoUVPgJIjk2mNRyJDFwYRJzUZaD37eiR/c/lQ6MoaeqlGwiXoxw==
   dependencies:
-    "@storybook/core" "8.3.2"
+    "@storybook/core" "8.3.4"
 
 strict-event-emitter@^0.5.1:
   version "0.5.1"
